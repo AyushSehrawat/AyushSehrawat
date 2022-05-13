@@ -29,7 +29,8 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+Python   26 mins         █████████████████████▒░░░   84.87 %
+Text     4 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   15.13 %
 ```
 
 <!--END_SECTION:waka-->
