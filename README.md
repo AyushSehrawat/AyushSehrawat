@@ -29,8 +29,8 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-Python   17 mins         ███████████████████▒░░░░░   77.57 %
-Text     4 mins          █████▓░░░░░░░░░░░░░░░░░░░   22.43 %
+HTML   0 secs          █████████████████████████   100.00 %
+LESS   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
 <!--END_SECTION:waka-->
