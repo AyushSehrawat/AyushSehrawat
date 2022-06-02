@@ -29,8 +29,7 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-HTML   0 secs          █████████████████████████   100.00 %
-LESS   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
