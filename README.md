@@ -16,7 +16,7 @@ Languages: Python,JavaScript,
            HTML, CSS
 Learning: mongoDB, Node.js PostgreSQL,
           CPP
-Hobbies: Reading, manga
+Hobbies: Coding/Reading/Sleeping
 Discord: Mini#5183
 ```
 ---
