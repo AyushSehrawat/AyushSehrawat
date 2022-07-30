@@ -24,8 +24,7 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-JSON       32 mins         █████████████░░░░░░░░░░░░   51.72 %
-Other      20 mins         ████████░░░░░░░░░░░░░░░░░   31.61 %
+Other      40 mins         ██████████▒░░░░░░░░░░░░░░   40.76 %
 ```
 
 <!--END_SECTION:waka-->
