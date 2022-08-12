@@ -24,9 +24,9 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-HTML         3 hrs 30 mins   ██████████████████░░░░░░░   72.38 %
-CSS          55 mins         ████▓░░░░░░░░░░░░░░░░░░░░   19.16 %
-JavaScript   24 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 %
+HTML         1 hr 20 mins    ██████████████░░░░░░░░░░░   56.10 %
+JavaScript   34 mins         ██████░░░░░░░░░░░░░░░░░░░   23.72 %
+Other        19 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.30 %
 ```
 
 <!--END_SECTION:waka-->
