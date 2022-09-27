@@ -24,7 +24,7 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-JSON   4 mins          █████████████████████████   100.00 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
