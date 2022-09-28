@@ -24,7 +24,10 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+Markdown   41 mins         ████████████████▒░░░░░░░░   65.08 %
+YAML       12 mins         █████░░░░░░░░░░░░░░░░░░░░   19.93 %
+Python     9 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   14.81 %
+Text       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.18 %
 ```
 
 <!--END_SECTION:waka-->
