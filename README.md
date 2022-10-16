@@ -24,8 +24,9 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-YAML       7 mins          █████████████████░░░░░░░░   68.10 %
-Markdown   3 mins          ████████░░░░░░░░░░░░░░░░░   31.90 %
+Python     3 hrs 4 mins    ███████████████████████▓░   94.24 %
+YAML       7 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.93 %
+Markdown   3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.83 %
 ```
 
 <!--END_SECTION:waka-->
