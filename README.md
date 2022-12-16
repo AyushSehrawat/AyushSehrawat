@@ -24,9 +24,10 @@ Discord: Mini#5183
 <!--START_SECTION:waka-->
 
 ```text
-Svelte       4 hrs 3 mins    ████████████▒░░░░░░░░░░░░   49.67 %
-Python       2 hrs 51 mins   ████████▓░░░░░░░░░░░░░░░░   35.01 %
-Other        27 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.58 %
+Svelte       4 hrs 3 mins    ███████████▓░░░░░░░░░░░░░   46.44 %
+HTML         2 hrs 54 mins   ████████▒░░░░░░░░░░░░░░░░   33.25 %
+Python       45 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.61 %
+Other        27 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.22 %
 ```
 
 <!--END_SECTION:waka-->
