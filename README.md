@@ -2,7 +2,7 @@
 > neofetch
 ```
 
-<img align="left" src="https://media.tenor.com/9yn1l4ukGW8AAAAC/cat-vibe.gif" alt="Bakaguya made by レヴィノス (https://www.pixiv.net/en/artworks/80962527)" width="320" /> 
+<img align="left" src="./assets/cat-vibe.gif" alt="Search vibing on tenor :)" width="320" /> 
 
 ```csharp
 ayushsehrawat@github
@@ -11,11 +11,9 @@ OS: Ubuntu 22.10 x86_64
 Shell: bash
 Pronouns: He/Him
 Location: Delhi, India
-Frameworks: Flask, Django, FastAPI, Quart,
-Languages: Python,JavaScript,
-           HTML, CSS
-Learning: mongoDB, Node.js PostgreSQL,
-          CPP, Svelte
+Frameworks: FastAPI, Svelte ( Learning ), Flask, Django, Quart
+Languages: Python,JavaScript, HTML, CSS
+Tools : git,mongoDB, mysql, TailwindCSS, vscode
 Hobbies: Coding/Reading/Sleeping
 Discord: Mini#5183
 ```
