@@ -19,6 +19,7 @@ Tools : git,mongoDB, mysql, TailwindCSS,
         vscode
 Hobbies: Coding/Reading/Sleeping
 Discord: Mini#5183
+Website: minidev.me
 ```
 ---
 
