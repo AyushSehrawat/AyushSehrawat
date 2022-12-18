@@ -2,20 +2,20 @@
 > neofetch
 ```
 
-<img align="left" src="https://i.redd.it/h7dae4o0uk461.jpg" alt="Bakaguya made by レヴィノス (https://www.pixiv.net/en/artworks/80962527)" width="320" /> 
+<img align="left" src="https://media.tenor.com/9yn1l4ukGW8AAAAC/cat-vibe.gif" alt="Bakaguya made by レヴィノス (https://www.pixiv.net/en/artworks/80962527)" width="320" /> 
 
 ```csharp
 ayushsehrawat@github
 -------------------------
-OS: Arch Linux x86_64
-Shell: zsh 5.8
+OS: Ubuntu 22.10 x86_64
+Shell: bash
 Pronouns: He/Him
 Location: Delhi, India
-Frameworks: Flask, Django, FastAPI, Quart
+Frameworks: Flask, Django, FastAPI, Quart,
 Languages: Python,JavaScript,
            HTML, CSS
 Learning: mongoDB, Node.js PostgreSQL,
-          CPP
+          CPP, Svelte
 Hobbies: Coding/Reading/Sleeping
 Discord: Mini#5183
 ```
@@ -33,3 +33,5 @@ Other        20 mins         █░░░░░░░░░░░░░░░░
 <!--END_SECTION:waka-->
 
 Personal Organisations - [@minihut](https://github.com/minihut)
+
+Website - https://minidev.me
