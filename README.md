@@ -11,9 +11,12 @@ OS: Ubuntu 22.10 x86_64
 Shell: bash
 Pronouns: He/Him
 Location: Delhi, India
-Frameworks: FastAPI, Svelte ( Learning ), Flask, Django, Quart
-Languages: Python,JavaScript, HTML, CSS
-Tools : git,mongoDB, mysql, TailwindCSS, vscode
+Frameworks: FastAPI, Svelte ( Learning ), 
+            Flask, Django, Quart
+Languages: Python,JavaScript,
+           HTML, CSS
+Tools : git,mongoDB, mysql, TailwindCSS,
+        vscode
 Hobbies: Coding/Reading/Sleeping
 Discord: Mini#5183
 ```
