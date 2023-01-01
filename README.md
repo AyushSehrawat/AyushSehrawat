@@ -26,10 +26,7 @@ Website: minidev.me
 <!--START_SECTION:waka-->
 
 ```text
-Svelte   1 hr 16 mins    ███████████████████▒░░░░░   77.95 %
-HTML     10 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.20 %
-CSS      9 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   10.19 %
-Other    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.66 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
