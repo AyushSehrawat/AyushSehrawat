@@ -26,11 +26,7 @@ Website: minidev.me
 <!--START_SECTION:waka-->
 
 ```text
-Python       3 hrs 17 mins   ████████████████████████░   95.83 %
-Markdown     3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.75 %
-Text         2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.37 %
-JSON         1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.88 %
-Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
