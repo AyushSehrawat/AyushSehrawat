@@ -26,7 +26,8 @@ Website: minidev.me
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+JSON     0 secs          ███████████████████░░░░░░   76.06 %
+Svelte   0 secs          ██████░░░░░░░░░░░░░░░░░░░   23.94 %
 ```
 
 <!--END_SECTION:waka-->
