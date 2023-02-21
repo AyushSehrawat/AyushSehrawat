@@ -26,12 +26,10 @@ Website: minidev.me
 <!--START_SECTION:waka-->
 
 ```text
-Svelte       13 hrs 49 mins  ████████████████▒░░░░░░░░   64.94 %
-JavaScript   7 hrs 4 mins    ████████▒░░░░░░░░░░░░░░░░   33.23 %
-Markdown     22 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.77 %
-HTML         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
-JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
-Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+Svelte       8 hrs 40 mins   ██████████████████░░░░░░░   72.22 %
+JavaScript   3 hrs 18 mins   ███████░░░░░░░░░░░░░░░░░░   27.55 %
+Markdown     1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 %
+CSS          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
 <!--END_SECTION:waka-->
