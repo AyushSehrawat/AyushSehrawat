@@ -26,7 +26,10 @@ Website: minidev.me
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+JavaScript   8 mins          ███████████████▓░░░░░░░░░   62.91 %
+Svelte       2 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.63 %
+Markdown     1 min           ███▒░░░░░░░░░░░░░░░░░░░░░   13.73 %
+Other        0 secs          █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 %
 ```
 
 <!--END_SECTION:waka-->
