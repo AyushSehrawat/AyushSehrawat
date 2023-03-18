@@ -11,15 +11,13 @@ OS: Ubuntu 22.10 x86_64
 Shell: bash
 Pronouns: He/Him
 Location: Delhi, India
-Frameworks: FastAPI, Svelte ( Learning ), 
-            Flask, Django, Quart
-Languages: Python,JavaScript,
-           HTML, CSS
-Tools : git,mongoDB, mysql, TailwindCSS,
-        vscode
+Frameworks: FastAPI, Svelte, Astro , Django , Flask
+Languages: Python, JavaScript, HTML, CSS
+Tools : git, mongoDB, mysql, TailwindCSS, vscode
 Hobbies: Coding/Reading/Sleeping
 Discord: Mini#5183
 Website: minidev.me
+Org: Neobrains , Bitwrap
 ```
 ---
 
@@ -34,7 +32,3 @@ Other        39 mins         ▓░░░░░░░░░░░░░░░░
 ```
 
 <!--END_SECTION:waka-->
-
-Personal Organisations - [@minihut](https://github.com/minihut)
-
-Website - https://minidev.me
