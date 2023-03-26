@@ -24,10 +24,7 @@ Org: Neobrains , Bitwrap
 <!--START_SECTION:waka-->
 
 ```text
-Svelte       3 hrs 18 mins   ████████████████████████▓   98.40 %
-HTML         2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.17 %
-JavaScript   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 %
-CSS          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
