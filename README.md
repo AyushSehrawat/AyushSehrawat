@@ -7,7 +7,7 @@
 ```csharp
 ayushsehrawat@github
 -------------------------
-OS: Ubuntu 22.10 x86_64
+OS: Zorin OS 16.2 x86_64
 Shell: bash
 Pronouns: He/Him
 Location: Delhi, India
