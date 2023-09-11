@@ -7,13 +7,13 @@
 ```csharp
 ayushsehrawat@github
 -------------------------
-OS: Zorin OS 16.2 x86_64
+OS: Pop!_OS 22.04 LTS x86_64
 Shell: bash
 Pronouns: He/Him
 Location: Delhi, India
 Frameworks: FastAPI, Svelte, Astro , Django , Flask
-Languages: Python, JavaScript, HTML, CSS
-Tools : git, mongoDB, mysql, TailwindCSS, vscode
+Languages: Python, JavaScript, HTML, CSS, Bash, Rust, Go
+Tools : git, mongoDB, mysql, TailwindCSS, vscode, postgresql
 Hobbies: Coding/Reading/Sleeping
 Discord: Mini#5183
 Website: ayush.gg
