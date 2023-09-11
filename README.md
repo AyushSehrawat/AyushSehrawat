@@ -24,7 +24,11 @@ Org: Neobrains , Bitwrap
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+TypeScript   2 hrs 16 mins   ██████████████████▓░░░░░░   75.18 %
+Bash         17 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.82 %
+Svelte       16 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.06 %
+JavaScript   10 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.79 %
+Ezhil        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 %
 ```
 
 <!--END_SECTION:waka-->
