@@ -4,3 +4,7 @@
     <img alt="Andrew Grant's GitHub Profile README" src="https://raw.githubusercontent.com/AyushSehrawat/AyushSehrawat/v2/light_mode.svg">
   </picture>
 </a>
+
+<!--START_SECTION:waka-->
+
+<!--END_SECTION:waka-->
