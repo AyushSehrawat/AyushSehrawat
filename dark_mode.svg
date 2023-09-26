@@ -41,7 +41,7 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="570">            ██░░██░░░░▓▓░░██          ██▓▓░░░░██                               </tspan>
 <tspan x="15" y="590">              ██░░░░▒▒▓▓██            ██▓▓▒▒░░██                               </tspan>
 <tspan x="15" y="610">            ██▓▓▒▒▒▒▓▓██              ██▓▓▒▒▒▒▓▓██                             </tspan>
-<tspan x="15" y="630">            ██████████                  ██████████                             </tspan>
+<tspan x="15" y="630">17 years, 8 months, 8 days</tspan>
 </text>
 
 <text x="370" y="30" fill="#c9d1d9">
@@ -60,11 +60,11 @@ text, tspan {white-space: pre;}
 <tspan x="370" y="330" class="keyColor">133,011--</tspan>:
 <tspan x="370" y="350">——————</tspan>
 <tspan x="370" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">mini@ayush.gg</tspan>
-<tspan x="370" y="390" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">AyushSehrawat</tspan>
-<tspan x="370" y="410" class="keyColor">Twitter</tspan>: <tspan class="valueColor">@mini5183</tspan>
+<tspan x="370" y="390" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">16</tspan>
+<tspan x="370" y="410" class="keyColor">Twitter</tspan>: <tspan class="valueColor">30</tspan>
 <tspan x="370" y="450" class="keyColor">GitHub Stats</tspan>:
-<tspan x="370" y="470">——————</tspan>
-<tspan x="370" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">16</tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">30</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">498    </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">80</tspan>
+<tspan x="370" y="470">498    </tspan>
+<tspan x="370" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">80</tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">36  </tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">226,310</tspan>| <tspan class="keyColor">359,321++</tspan>: <tspan class="valueColor">133,011--</tspan>
 <tspan x="370" y="510" class="keyColor">Followers</tspan>: <tspan class="valueColor">36  </tspan>| <tspan class="keyColor">Lines of Code</tspan>: <tspan class="valueColor">226,310</tspan> (<tspan class="addColor">359,321++</tspan>, <tspan class="delColor">133,011--</tspan>)
 </text>
 
