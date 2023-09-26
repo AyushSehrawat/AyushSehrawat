@@ -42,28 +42,28 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="590">   ▒▒▒▒▒▒  ▒▒▒▒▒▒     </tspan>
 </text>
 
-<text x="370" y="30" fill="#c9d1d9">
-<tspan x="370" y="30">ayush@sehrawat</tspan>
-<tspan x="370" y="50">17 years, 8 months, 8 days</tspan>
-<tspan x="370" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">PopOS 22.04</tspan>
-<tspan x="370" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">17 years, 8 months, 8 days</tspan>
-<tspan x="370" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">@_@</tspan><tspan class="commentColor"> #@_@</tspan>
-<tspan x="370" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">@_@</tspan><tspan class="commentColor"> #@_@</tspan>
-<tspan x="370" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode, Jetbrains, Nvim</tspan>
-<tspan x="370" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Python, C++, JS, Go, Rust</tspan>
-<tspan x="370" y="210" class="keyColor">Languages</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">HTML, CSS, JSON, XML, YAML, Markdown, Bash</tspan>
-<tspan x="370" y="230" class="keyColor">Languages</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">English, Hindi</tspan>
-<tspan x="370" y="270" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Software</tspan>: <tspan class="valueColor">Messing With Servers</tspan>
-<tspan x="370" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">Reading Novels &quot; Manga, Sleeping</tspan>
-<tspan x="370" y="330" class="keyColor">Contact</tspan>:
-<tspan x="370" y="350">——————</tspan>
-<tspan x="370" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">mini@ayush.gg</tspan>
-<tspan x="370" y="390" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">AyushSehrawat</tspan>
-<tspan x="370" y="410" class="keyColor">Twitter</tspan>: <tspan class="valueColor">16</tspan>
-<tspan x="370" y="450" class="keyColor">GitHub Stats</tspan>:
-<tspan x="370" y="470">30</tspan>
-<tspan x="370" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">498    </tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">80</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">36  </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">226,310</tspan>
-<tspan x="370" y="510" class="keyColor">359,321++</tspan>: <tspan class="valueColor">133,011--</tspan>| <tspan class="keyColor">Lines of Code</tspan>: <tspan class="valueColor">226,310</tspan> (<tspan class="addColor">359,321++</tspan>, <tspan class="delColor">133,011--</tspan>)
+<text x="350" y="30" fill="#c9d1d9">
+<tspan x="350" y="30">ayush@sehrawat</tspan>
+<tspan x="350" y="50">17 years, 8 months, 8 days</tspan>
+<tspan x="350" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">PopOS 22.04</tspan>
+<tspan x="350" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">17 years, 8 months, 8 days</tspan>
+<tspan x="350" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">@_@</tspan><tspan class="commentColor"> #@_@</tspan>
+<tspan x="350" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">@_@</tspan><tspan class="commentColor"> #@_@</tspan>
+<tspan x="350" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode, Jetbrains, Nvim</tspan>
+<tspan x="350" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Python, C++, JS, Go, Rust</tspan>
+<tspan x="350" y="210" class="keyColor">Languages</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">HTML, CSS, JSON, XML, YAML, Markdown, Bash</tspan>
+<tspan x="350" y="230" class="keyColor">Languages</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">English, Hindi</tspan>
+<tspan x="350" y="270" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Software</tspan>: <tspan class="valueColor">Messing With Servers</tspan>
+<tspan x="350" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">Reading Novels &quot; Manga, Sleeping</tspan>
+<tspan x="350" y="330" class="keyColor">Contact</tspan>:
+<tspan x="350" y="350">——————</tspan>
+<tspan x="350" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">mini@ayush.gg</tspan>
+<tspan x="350" y="390" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">AyushSehrawat</tspan>
+<tspan x="350" y="410" class="keyColor">Twitter</tspan>: <tspan class="valueColor">16</tspan>
+<tspan x="350" y="450" class="keyColor">GitHub Stats</tspan>:
+<tspan x="350" y="470">30</tspan>
+<tspan x="350" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">498    </tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">80</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">36  </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">226,310</tspan>
+<tspan x="350" y="510" class="keyColor">359,321++</tspan>: <tspan class="valueColor">133,011--</tspan>| <tspan class="keyColor">Lines of Code</tspan>: <tspan class="valueColor">226,310</tspan> (<tspan class="addColor">359,321++</tspan>, <tspan class="delColor">133,011--</tspan>)
 </text>
 
 </svg>
