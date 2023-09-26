@@ -24,15 +24,15 @@ Org: Neobrains , Bitwrap
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 September 2023 - To: 24 September 2023
+From: 18 September 2023 - To: 25 September 2023
 
-Total Time: 18 hrs 12 mins
+Total Time: 19 hrs 8 mins
 
-Astro            10 hrs 13 mins  >>>>>>>>>>>>>>-----------   55.40 %
-Svelte           5 hrs 21 mins   >>>>>>>------------------   29.06 %
-TypeScript       48 mins         >------------------------   04.41 %
-JavaScript       25 mins         >------------------------   02.31 %
-SQL              24 mins         >------------------------   02.20 %
+Astro            16 hrs 22 mins  >>>>>>>>>>>>>>>>>>>>>----   85.50 %
+Svelte           1 hr 17 mins    >>-----------------------   06.70 %
+JavaScript       39 mins         >------------------------   03.45 %
+JSON             10 mins         -------------------------   00.92 %
+GitIgnore file   9 mins          -------------------------   00.81 %
 ```
 
 <!--END_SECTION:waka-->
