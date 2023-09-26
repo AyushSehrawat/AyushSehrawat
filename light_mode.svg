@@ -41,7 +41,7 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="570">===========================*%*:.........       ......             ...:*%*===========================</tspan>
 <tspan x="15" y="590">============================*%*:.........        ..             .....*%*============================</tspan>
 <tspan x="15" y="610">============================+*%#-..........                     ...:#%*=============================</tspan>
-<tspan x="15" y="630">==============================+#%+:...........             .......+%#+==============================</tspan>
+<tspan x="15" y="630">17 years, 8 months, 8 days</tspan>
 <tspan x="15" y="650">================================*##+:.........             .....+##*================================</tspan>
 <tspan x="15" y="670">=================================+*#%*=:.......          ....-*%#*==================================</tspan>
 <tspan x="15" y="690">====================================+*###+-:.............-+*##*+====================================</tspan>
@@ -72,11 +72,11 @@ text, tspan {white-space: pre;}
 <tspan x="370" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">Soon</tspan><tspan class="commentColor"> #</tspan>
 <tspan x="370" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode</tspan>
 <tspan x="370" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Python, C++, JavaScript, Typescript, Go, Rust, Bash</tspan>
-<tspan x="370" y="210" class="keyColor">Languages</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">HTML, CSS, JSON, XML, LaTeX, YAML, Markdown</tspan>
-<tspan x="370" y="230" class="keyColor">Languages</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">English, Hindi</tspan>
-<tspan x="370" y="270" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Software</tspan>: <tspan class="valueColor">Messing Around With Servers</tspan>
-<tspan x="370" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">Reading, Sleeping</tspan>
-<tspan x="370" y="330" class="keyColor">Contact</tspan>:
+<tspan x="370" y="210" class="keyColor">16</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">30</tspan>
+<tspan x="370" y="230" class="keyColor">Languages</tspan>.<tspan class="keyColor">498    </tspan>: <tspan class="valueColor">English, Hindi</tspan>
+<tspan x="370" y="270" class="keyColor">80</tspan>.<tspan class="keyColor">Software</tspan>: <tspan class="valueColor">36  </tspan>
+<tspan x="370" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">226,310</tspan>: <tspan class="valueColor">359,321++</tspan>
+<tspan x="370" y="330" class="keyColor">133,011--</tspan>:
 <tspan x="370" y="350">——————</tspan>
 <tspan x="370" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">mini@ayush.gg</tspan>
 <tspan x="370" y="390" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">AyushSehrawat</tspan>
