@@ -485,15 +485,15 @@ def svg_overwrite(
     svg = minidom.parse(filename)
     f = open(filename, mode="w", encoding="utf-8")
     tspan = svg.getElementsByTagName("tspan")
-    tspan[30].firstChild.data = age_data
-    tspan[65].firstChild.data = repo_data
-    tspan[67].firstChild.data = contrib_data
-    tspan[69].firstChild.data = commit_data
-    tspan[71].firstChild.data = star_data
-    tspan[73].firstChild.data = follower_data
-    tspan[75].firstChild.data = loc_data[2]
-    tspan[76].firstChild.data = loc_data[0] + "++"
-    tspan[77].firstChild.data = loc_data[1] + "--"
+    tspan[34].firstChild.data = age_data
+    tspan[69].firstChild.data = repo_data
+    tspan[71].firstChild.data = contrib_data
+    tspan[73].firstChild.data = commit_data
+    tspan[75].firstChild.data = star_data
+    tspan[77].firstChild.data = follower_data
+    tspan[79].firstChild.data = loc_data[2]
+    tspan[80].firstChild.data = loc_data[0] + "++"
+    tspan[81].firstChild.data = loc_data[1] + "--"
     f.write(svg.toxml("utf-8").decode("utf-8"))
     f.close()
 
