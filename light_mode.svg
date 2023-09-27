@@ -49,12 +49,12 @@ text, tspan {white-space: pre;}
 <tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">17 years, 8 months, 9 days</tspan>
 <tspan x="300" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">@_@</tspan><tspan class="commentColor"> #@_@</tspan>
 <tspan x="300" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">@_@</tspan><tspan class="commentColor"> #@_@</tspan>
-<tspan x="300" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode, Jetbrains</tspan>
+<tspan x="300" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode, JetBrains</tspan>
 <tspan x="300" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Python, C++, JS, TS, Go, Rust</tspan>
 <tspan x="300" y="210" class="keyColor">Languages</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">HTML, CSS, JSON, XML, YAML, Markdown, Bash</tspan>
 <tspan x="300" y="230" class="keyColor">Languages</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">English, Hindi</tspan>
 <tspan x="300" y="270" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Software</tspan>: <tspan class="valueColor">Messing With Servers</tspan>
-<tspan x="300" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">Reading Novels And Manga, Sleeping</tspan>
+<tspan x="300" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">Reading Novels and Manga, Sleeping</tspan>
 <tspan x="300" y="330" class="keyColor">Contact</tspan>:
 <tspan x="300" y="350">——————</tspan>
 <tspan x="300" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">mini@ayush.gg</tspan>
