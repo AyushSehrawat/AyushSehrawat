@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 23 September 2023 - To: 30 September 2023
+From: 24 September 2023 - To: 01 October 2023
 
-Total Time: 13 hrs 45 mins
+Total Time: 11 hrs 41 mins
 
-Astro        10 hrs 26 mins  >>>>>>>>>>>>>>>>>>>------   75.82 %
-XML          1 hr 47 mins    >>>----------------------   12.98 %
-Python       33 mins         >------------------------   04.05 %
-JavaScript   21 mins         >------------------------   02.63 %
-YAML         17 mins         >------------------------   02.16 %
+Astro        8 hrs 6 mins    >>>>>>>>>>>>>>>>>--------   68.80 %
+XML          1 hr 46 mins    >>>>---------------------   15.13 %
+Python       33 mins         >------------------------   04.73 %
+JavaScript   21 mins         >------------------------   03.07 %
+YAML         17 mins         >------------------------   02.52 %
 ```
 
 <!--END_SECTION:waka-->
