@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 29 September 2023 - To: 06 October 2023
+From: 30 September 2023 - To: 07 October 2023
 
-Total Time: 1 hr 12 mins
+Total Time: 1 hr 6 mins
 
-Astro        50 mins         >>>>>>>>>>>>>>>>---------   65.78 %
-Bash         13 mins         >>>>---------------------   17.71 %
-Other        5 mins          >>-----------------------   06.78 %
-GDScript3    2 mins          >------------------------   03.25 %
-CSS          2 mins          >------------------------   02.76 %
+Astro        47 mins         >>>>>>>>>>>>>>>>>--------   66.44 %
+Bash         13 mins         >>>>>--------------------   19.07 %
+Other        5 mins          >>-----------------------   07.31 %
+JavaScript   2 mins          >------------------------   03.68 %
+GDScript3    2 mins          >------------------------   03.50 %
 ```
 
 <!--END_SECTION:waka-->
