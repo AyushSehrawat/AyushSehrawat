@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 October 2023 - To: 24 October 2023
+From: 18 October 2023 - To: 25 October 2023
 
-Total Time: 10 hrs 4 mins
+Total Time: 14 hrs 24 mins
 
-Svelte           7 hrs 55 mins   >>>>>>>>>>>>>>>>>>>>-----   78.62 %
-JavaScript       50 mins         >>-----------------------   08.32 %
-TypeScript       38 mins         >>-----------------------   06.32 %
-HTML             29 mins         >------------------------   04.87 %
-JSON             8 mins          -------------------------   01.48 %
+Svelte           11 hrs 58 mins  >>>>>>>>>>>>>>>>>>>>>----   83.00 %
+TypeScript       54 mins         >>-----------------------   06.29 %
+JavaScript       50 mins         >------------------------   05.81 %
+HTML             29 mins         >------------------------   03.40 %
+JSON             8 mins          -------------------------   01.03 %
 ```
 
 <!--END_SECTION:waka-->
