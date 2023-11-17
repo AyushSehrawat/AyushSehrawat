@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 07 November 2023 - To: 14 November 2023
+From: 09 November 2023 - To: 16 November 2023
 
-Total Time: 20 hrs 48 mins
+Total Time: 23 hrs 52 mins
 
-Svelte       15 hrs 36 mins  >>>>>>>>>>>>>>>>>>>------   74.85 %
-TypeScript   3 hrs 57 mins   >>>>>--------------------   19.02 %
-JSON         31 mins         >------------------------   02.56 %
-Markdown     31 mins         >------------------------   02.52 %
-Bash         5 mins          -------------------------   00.46 %
+Svelte       19 hrs 32 mins  >>>>>>>>>>>>>>>>>>>>-----   81.71 %
+TypeScript   3 hrs 27 mins   >>>>---------------------   14.46 %
+JSON         31 mins         >------------------------   02.20 %
+Markdown     11 mins         -------------------------   00.81 %
+Bash         5 mins          -------------------------   00.38 %
 ```
 
 <!--END_SECTION:waka-->
