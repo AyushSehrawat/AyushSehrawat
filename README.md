@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 20 January 2024 - To: 27 January 2024
+From: 21 January 2024 - To: 28 January 2024
 
-Total Time: 14 hrs 11 mins
+Total Time: 12 hrs 28 mins
 
-Svelte       10 hrs 22 mins  >>>>>>>>>>>>>>>>>>-------   73.08 %
-TypeScript   1 hr 39 mins    >>>----------------------   11.73 %
-Markdown     43 mins         >------------------------   05.11 %
-JSON         43 mins         >------------------------   05.10 %
-JavaScript   28 mins         >------------------------   03.34 %
+Svelte       8 hrs 23 mins   >>>>>>>>>>>>>>>>>--------   67.25 %
+TypeScript   1 hr 28 mins    >>>----------------------   11.83 %
+JSON         46 mins         >>-----------------------   06.25 %
+Markdown     43 mins         >------------------------   05.81 %
+HTML         19 mins         >------------------------   02.66 %
 ```
 
 <!--END_SECTION:waka-->
