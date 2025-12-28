@@ -45,10 +45,10 @@ text, tspan {white-space: pre;}
 <text x="300" y="30" fill="#c9d1d9">
 <tspan x="300" y="30">ayush@sehrawat</tspan>
 <tspan x="300" y="50">——————</tspan>
-<tspan x="300" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">PopOS 22.04</tspan>
+<tspan x="300" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">CachyOS</tspan>
 <tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">19 years, 11 months, 10 days</tspan>
-<tspan x="300" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">@_@</tspan><tspan class="commentColor"> #@_@</tspan>
-<tspan x="300" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">@_@</tspan><tspan class="commentColor"> #@_@</tspan>
+<tspan x="300" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">@_@</tspan>
+<tspan x="300" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">@_@</tspan>
 <tspan x="300" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode, JetBrains</tspan>
 <tspan x="300" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Python, C++, JS, TS, Go, Rust</tspan>
 <tspan x="300" y="210" class="keyColor">Languages</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">HTML, CSS, JSON, XML, YAML, Markdown, Bash</tspan>

@@ -7,6 +7,7 @@ import os
 from xml.dom import minidom
 import time
 import hashlib
+import json
 from dotenv import load_dotenv
 import logging
 
@@ -567,23 +568,60 @@ def svg_overwrite(
     contrib_data,
     follower_data,
     loc_data,
+    info,
 ):
     """
-    Parse SVG files and update elements with my age, commits, stars, repositories, and lines written
+    Parse SVG files and update elements with profile info, age, commits, stars, repositories, and lines written.
+    Profile info is loaded from info.json and escaped to prevent SVG rendering issues.
     """
     logger.debug(f"Updating SVG file: {filename}")
     svg = minidom.parse(filename)
     f = open(filename, mode="w", encoding="utf-8")
     tspan = svg.getElementsByTagName("tspan")
-    tspan[34].firstChild.data = age_data
-    tspan[69].firstChild.data = repo_data
-    tspan[71].firstChild.data = contrib_data
-    tspan[73].firstChild.data = commit_data
-    tspan[75].firstChild.data = star_data
-    tspan[77].firstChild.data = follower_data
-    tspan[79].firstChild.data = loc_data[2]
-    tspan[80].firstChild.data = loc_data[0] + "++"
-    tspan[81].firstChild.data = loc_data[1] + "--"
+
+    # Update profile info from info.json (with XML escaping)
+    profile = info.get("profile", {})
+    system = info.get("system", {})
+    languages = info.get("languages", {})
+    hobbies = info.get("hobbies", {})
+    contact = info.get("contact", {})
+
+    # Profile header (index 29): username@hostname
+    username = escape_xml(profile.get("username", "user"))
+    hostname = escape_xml(profile.get("hostname", "host"))
+    tspan[29].firstChild.data = f"{username}@{hostname}"
+
+    # System info
+    tspan[32].firstChild.data = escape_xml(system.get("os", "Unknown OS"))
+    tspan[34].firstChild.data = age_data  # Uptime (age_data from birthday calc)
+    tspan[36].firstChild.data = escape_xml(system.get("host", "Unknown"))
+    tspan[38].firstChild.data = escape_xml(system.get("kernel", "Unknown"))
+    tspan[40].firstChild.data = escape_xml(system.get("ide", "Unknown IDE"))
+
+    # Languages
+    tspan[43].firstChild.data = escape_xml(languages.get("programming", ""))
+    tspan[46].firstChild.data = escape_xml(languages.get("computer", ""))
+    tspan[49].firstChild.data = escape_xml(languages.get("real", ""))
+
+    # Hobbies
+    tspan[52].firstChild.data = escape_xml(hobbies.get("software", ""))
+    tspan[55].firstChild.data = escape_xml(hobbies.get("real", ""))
+
+    # Contact
+    tspan[59].firstChild.data = escape_xml(contact.get("email", ""))
+    tspan[61].firstChild.data = escape_xml(contact.get("linkedin", ""))
+    tspan[63].firstChild.data = escape_xml(contact.get("twitter", ""))
+
+    # GitHub Stats (dynamic data)
+    tspan[67].firstChild.data = repo_data
+    tspan[69].firstChild.data = contrib_data
+    tspan[71].firstChild.data = commit_data
+    tspan[73].firstChild.data = star_data
+    tspan[75].firstChild.data = follower_data
+    tspan[77].firstChild.data = loc_data[2]
+    tspan[78].firstChild.data = loc_data[0] + "++"
+    tspan[79].firstChild.data = loc_data[1] + "--"
+
     f.write(svg.toxml("utf-8").decode("utf-8"))
     f.close()
     logger.info(f"SVG file updated: {filename}")
@@ -666,6 +704,45 @@ def query_count(funct_id):
     QUERY_COUNT[funct_id] += 1
 
 
+def escape_xml(text):
+    """
+    Escape special XML characters to prevent SVG rendering issues.
+    """
+    if text is None:
+        return ""
+    text = str(text)
+    # Replace special characters that could break XML/SVG
+    replacements = [
+        ("&", "&amp;"),  # Must be first
+        ("<", "&lt;"),
+        (">", "&gt;"),
+        ('"', "&quot;"),
+        ("'", "&apos;"),
+    ]
+    for old, new in replacements:
+        text = text.replace(old, new)
+    return text
+
+
+def load_info():
+    """
+    Load profile information from info.json file.
+    Returns dict with profile, system, languages, hobbies, and contact info.
+    """
+    logger.debug("Loading profile info from info.json")
+    try:
+        with open("info.json", "r", encoding="utf-8") as f:
+            info = json.load(f)
+        logger.info("Loaded profile info from info.json")
+        return info
+    except FileNotFoundError:
+        logger.error("info.json not found, using empty defaults")
+        return {}
+    except json.JSONDecodeError as e:
+        logger.error(f"Failed to parse info.json: {e}")
+        return {}
+
+
 def perf_counter(funct, *args):
     """
     Calculates the time it takes for a function to run
@@ -696,6 +773,10 @@ if __name__ == "__main__":
     """
     logger.info("Starting GitHub stats calculation")
     print("Calculation times:")
+
+    # Load profile info from info.json
+    info = load_info()
+
     # define global variable for owner ID and calculate user's creation date
     # e.g {'id': 'MDQ6VXNlcjU3MzMxMTM0'} and 2019-11-03T21:15:07Z for username 'Andrew6rant'
     user_data, user_time = perf_counter(user_getter, USER_NAME)
@@ -749,6 +830,7 @@ if __name__ == "__main__":
         contrib_data,
         follower_data,
         total_loc[:-1],
+        info,
     )
     svg_overwrite(
         "light_mode.svg",
@@ -759,6 +841,7 @@ if __name__ == "__main__":
         contrib_data,
         follower_data,
         total_loc[:-1],
+        info,
     )
 
     # move cursor to override 'Calculation times:' with 'Total function time:' and the total function time, then move cursor back

@@ -1,0 +1,27 @@
+{
+    "profile": {
+        "username": "ayush",
+        "hostname": "sehrawat"
+    },
+    "system": {
+        "os": "CachyOS",
+        "uptime": "19 years, 11 months, 10 days",
+        "host": "@_@",
+        "kernel": "@_@",
+        "ide": "VSCode, JetBrains"
+    },
+    "languages": {
+        "programming": "Python, C++, JS, TS, Go, Rust",
+        "computer": "HTML, CSS, JSON, XML, YAML, Markdown, Bash",
+        "real": "English, Hindi"
+    },
+    "hobbies": {
+        "software": "Messing With Servers",
+        "real": "Reading Novels and Manga, Sleeping"
+    },
+    "contact": {
+        "email": "mini@ayush.gg",
+        "linkedin": "AyushSehrawat",
+        "twitter": "@mini5183"
+    }
+}
