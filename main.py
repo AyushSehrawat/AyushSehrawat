@@ -27,6 +27,9 @@ logger = logging.getLogger(__name__)
 # PAT with permissions: read:enterprise, read:org, read:repo_hook, read:user, repo
 HEADERS = {"authorization": "token " + os.getenv("ACCESS_TOKEN")}
 USER_NAME = os.getenv("USER_NAME")
+
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
 QUERY_COUNT = {
     "user_getter": 0,
     "follower_getter": 0,
@@ -79,10 +82,9 @@ def simple_request(func_name, query, variables):
     Returns a request, or raises an Exception if the response does not succeed.
     """
     logger.debug(f"API request for {func_name} with variables: {variables}")
-    request = requests.post(
+    request = SESSION.post(
         "https://api.github.com/graphql",
         json={"query": query, "variables": variables},
-        headers=HEADERS,
     )
     if request.status_code == 200:
         logger.debug(f"API request for {func_name} succeeded")
@@ -221,11 +223,10 @@ def recursive_loc(
         }
     }"""
     variables = {"repo_name": repo_name, "owner": owner, "cursor": cursor}
-    request = requests.post(
+    request = SESSION.post(
         "https://api.github.com/graphql",
         json={"query": query, "variables": variables},
-        headers=HEADERS,
-    )  # I cannot use simple_request(), because I want to save the file before raising Exception
+    )
     if request.status_code == 200:
         if (
             request.json()["data"]["repository"]["defaultBranchRef"] is not None
@@ -333,14 +334,10 @@ def loc_counter_one_repo(
 
 
 def loc_query(
-    owner_affiliation, comment_size=0, force_cache=False, cursor=None, edges=[]
+    owner_affiliation, comment_size=0, force_cache=False, cursor=None, edges=None
 ):
-    """
-    Uses GitHub's GraphQL v4 API to query all the repositories I have access to (with respect to owner_affiliation)
-    Queries 60 repos at a time, because larger queries give a 502 timeout error and smaller queries send too many
-    requests and also give a 502 error.
-    Returns the total number of lines of code in all repositories
-    """
+    if edges is None:
+        edges = []
     query_count("loc_query")
     query = """
     query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
@@ -375,22 +372,19 @@ def loc_query(
         "cursor": cursor,
     }
     request = simple_request(loc_query.__name__, query, variables)
-    if request.json()["data"]["user"]["repositories"]["pageInfo"][
-        "hasNextPage"
-    ]:  # If repository data has another page
-        edges += request.json()["data"]["user"]["repositories"][
-            "edges"
-        ]  # Add on to the LoC count
+    response_data = request.json()["data"]["user"]["repositories"]
+    if response_data["pageInfo"]["hasNextPage"]:
+        edges += response_data["edges"]
         return loc_query(
             owner_affiliation,
             comment_size,
             force_cache,
-            request.json()["data"]["user"]["repositories"]["pageInfo"]["endCursor"],
+            response_data["pageInfo"]["endCursor"],
             edges,
         )
     else:
         return cache_builder(
-            edges + request.json()["data"]["user"]["repositories"]["edges"],
+            edges + response_data["edges"],
             comment_size,
             force_cache,
         )
@@ -451,21 +445,11 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
                     owner, repo_name = edges[index]["node"]["nameWithOwner"].split("/")
                     logger.info(f"Updating LOC for {owner}/{repo_name}")
                     loc = recursive_loc(owner, repo_name, data, cache_comment)
+                    new_count = edges[index]["node"]["defaultBranchRef"]["target"][
+                        "history"
+                    ]["totalCount"]
                     data[index] = (
-                        repo_hash
-                        + " "
-                        + str(
-                            edges[index]["node"]["defaultBranchRef"]["target"][
-                                "history"
-                            ]["totalCount"]
-                        )
-                        + " "
-                        + str(loc[2])
-                        + " "
-                        + str(loc[0])
-                        + " "
-                        + str(loc[1])
-                        + "\n"
+                        f"{repo_hash} {new_count} {loc[2]} {loc[0]} {loc[1]}\n"
                     )
             except TypeError:  # If the repo is empty
                 logger.debug(f"Repository at index {index} is empty")
@@ -485,23 +469,14 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
 
 
 def flush_cache(edges, filename, comment_size):
-    """
-    Wipes the cache file
-    This is called when the number of repositories changes or when the file is first created
-    """
     with open(filename, "r") as f:
-        data = []
-        if comment_size > 0:
-            data = f.readlines()[:comment_size]  # only save the comment
+        data = f.readlines()[:comment_size] if comment_size > 0 else []
+    lines = [
+        f"{hashlib.sha256(node['node']['nameWithOwner'].encode('utf-8')).hexdigest()} 0 0 0 0\n"
+        for node in edges
+    ]
     with open(filename, "w") as f:
-        f.writelines(data)
-        for node in edges:
-            f.write(
-                hashlib.sha256(
-                    node["node"]["nameWithOwner"].encode("utf-8")
-                ).hexdigest()
-                + " 0 0 0 0\n"
-            )
+        f.writelines(data + lines)
 
 
 def add_archive():

@@ -6,12 +6,12 @@
     "system": {
         "os": "CachyOS",
         "uptime": "19 years, 11 months, 10 days",
-        "host": "@_@",
-        "kernel": "@_@",
+        "host": "India",
+        "kernel": "Delhi Technological University",
         "ide": "VSCode, JetBrains"
     },
     "languages": {
-        "programming": "Python, C++, JS, TS, Go, Rust",
+        "programming": "Python, JS, TS, Go, C, SQL",
         "computer": "HTML, CSS, JSON, XML, YAML, Markdown, Bash",
         "real": "English, Hindi"
     },

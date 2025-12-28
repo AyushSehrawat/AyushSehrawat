@@ -47,10 +47,10 @@ text, tspan {white-space: pre;}
 <tspan x="300" y="50">——————</tspan>
 <tspan x="300" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">CachyOS</tspan>
 <tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">19 years, 11 months, 10 days</tspan>
-<tspan x="300" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">@_@</tspan>
-<tspan x="300" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">@_@</tspan>
+<tspan x="300" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">India</tspan>
+<tspan x="300" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">Delhi Technological University</tspan>
 <tspan x="300" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode, JetBrains</tspan>
-<tspan x="300" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Python, C++, JS, TS, Go, Rust</tspan>
+<tspan x="300" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Python, JS, TS, Go, C, SQL</tspan>
 <tspan x="300" y="210" class="keyColor">Languages</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">HTML, CSS, JSON, XML, YAML, Markdown, Bash</tspan>
 <tspan x="300" y="230" class="keyColor">Languages</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">English, Hindi</tspan>
 <tspan x="300" y="270" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Software</tspan>: <tspan class="valueColor">Messing With Servers</tspan>
