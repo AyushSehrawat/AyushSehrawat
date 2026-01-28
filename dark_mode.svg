@@ -46,7 +46,7 @@ text, tspan {white-space: pre;}
 <tspan x="300" y="30">ayush@sehrawat</tspan>
 <tspan x="300" y="50">——————</tspan>
 <tspan x="300" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">CachyOS</tspan>
-<tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">20 years, 0 months, 9 days</tspan>
+<tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">20 years, 0 months, 10 days</tspan>
 <tspan x="300" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">India</tspan>
 <tspan x="300" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">Delhi Technological University</tspan>
 <tspan x="300" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode, JetBrains</tspan>
