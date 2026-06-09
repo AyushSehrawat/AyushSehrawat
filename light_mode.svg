@@ -46,7 +46,7 @@ text, tspan {white-space: pre;}
 <tspan x="300" y="30">ayush@sehrawat</tspan>
 <tspan x="300" y="50">——————</tspan>
 <tspan x="300" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">CachyOS</tspan>
-<tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">20 years, 4 months, 21 days</tspan>
+<tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">20 years, 4 months, 22 days</tspan>
 <tspan x="300" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">India</tspan>
 <tspan x="300" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">Delhi Technological University</tspan>
 <tspan x="300" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode, JetBrains</tspan>
@@ -62,8 +62,8 @@ text, tspan {white-space: pre;}
 <tspan x="300" y="410" class="keyColor">Twitter</tspan>: <tspan class="valueColor">@mini5183</tspan>
 <tspan x="300" y="450" class="keyColor">GitHub Stats</tspan>:
 <tspan x="300" y="470">——————</tspan>
-<tspan x="300" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">22</tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">40</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">1,128  </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">198</tspan>
-<tspan x="300" y="510" class="keyColor">Followers</tspan>: <tspan class="valueColor">61  </tspan>| <tspan class="keyColor">Lines of Code</tspan>: <tspan class="valueColor">-536,788</tspan> (<tspan class="addColor">1,672,140++</tspan>, <tspan class="delColor">2,208,928--</tspan>)
+<tspan x="300" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">22</tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">40</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">1,131  </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">198</tspan>
+<tspan x="300" y="510" class="keyColor">Followers</tspan>: <tspan class="valueColor">61  </tspan>| <tspan class="keyColor">Lines of Code</tspan>: <tspan class="valueColor">-534,580</tspan> (<tspan class="addColor">1,674,352++</tspan>, <tspan class="delColor">2,208,932--</tspan>)
 </text>
 
 </svg>
